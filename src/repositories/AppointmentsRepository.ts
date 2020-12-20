@@ -2,6 +2,8 @@ import { EntityRepository, Repository } from 'typeorm';
 
 import Appointment from '../models/Appointment';
 
+import User from '../models/User';
+
 @EntityRepository(Appointment)
 class AppointmentsRepository extends Repository<Appointment> {
     public async findByDate(date: Date): Promise<Appointment | null> {
