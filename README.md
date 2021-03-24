@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Recuperação de senha
 
 **RF** Requisitos funcionais
